@@ -47,7 +47,7 @@ If the user is intending on creating a production login system, the default loca
 
 ![image](https://user-images.githubusercontent.com/82501158/122659114-3dcfb000-d142-11eb-8822-a0baedd47e1f.png)
 
-# Brief Summary on how the login system functions
+# Brief summary on how the login system functions
 
 The program relies on the Context object created in the AuthContext.js file to hold all functions related to Firebase as well as the variable of the currentUser. The context object and all of it's components/variables are created and set in AuthContext.js. The file returns the useContext hook on the context object which allows all children of the context component to directly receive those values. Looking in Apps.js, the Signup, Login, Forgot-Password, and Welcome components are all children of the <AuthProvider> component which is the context component directly passing it's values to the 4 children. The signup, login, forgot-password components are all similar in nature each calling their respective functions from the context which they each gather information and manage states through various React hooks and Material-UI elements. 
   
