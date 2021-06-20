@@ -18,7 +18,7 @@ Logout once logged in
 
 Resetting a forgotten password
 
-![image](https://user-images.githubusercontent.com/82501158/122659483-9b65fb80-d146-11eb-97cc-e91c5bc8a89d.png)
+![image](https://user-images.githubusercontent.com/82501158/122664411-3377db00-d16f-11eb-87b0-668c90e81dfe.png)
 
 Error messages for any errors performing the above features.
 
