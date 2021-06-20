@@ -56,4 +56,5 @@ Majority of the systems code is straight-forward and documented with guidance in
 # Sources
   
  I learned how to create the login system following the structure in this Youtube video: https://www.youtube.com/watch?v=PKwu15ldZ7k&ab_channel=WebDevSimplified.
- The logo to the web-application is a favicon.ico coming from https://favicon.io/emoji-favicons/locked/ and licensed under https://creativecommons.org/licenses/by/4.0/.
+ 
+  The logo of the web-application is a favicon.ico coming from https://favicon.io/emoji-favicons/locked/ and licensed under https://creativecommons.org/licenses/by/4.0/.
