@@ -49,7 +49,7 @@ const ForgotPassword = () => {
 								<br />
 								<CenteredDiv>
 									<Avatar>
-										<LockIcon style={{ color: "black" }} />
+										<LockIcon htmlColor="#668cff" />
 									</Avatar>
 								</CenteredDiv>
 
