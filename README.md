@@ -22,9 +22,7 @@ Resetting a forgotten password
 
 Error messages for any errors performing the above features.
 
-![image](https://user-images.githubusercontent.com/82501158/122659468-81c4b400-d146-11eb-8e90-bf43fd088c28.png)
-
-![image](https://user-images.githubusercontent.com/82501158/122659455-6d80b700-d146-11eb-8b7e-fed2503ed168.png)
+![image](https://user-images.githubusercontent.com/82501158/122659468-81c4b400-d146-11eb-8e90-bf43fd088c28.png) ![image](https://user-images.githubusercontent.com/82501158/122659455-6d80b700-d146-11eb-8b7e-fed2503ed168.png)
 
 
 # Requirements
