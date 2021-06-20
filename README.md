@@ -27,11 +27,11 @@ Error messages for any errors performing the above features.
 
 # Requirements
 
-Node is required to run this website as well as various dependencies that are used throughout the web-application. "npm install" can be typed into the terminal to install all required dependencies. A Firebase project's configuation is also required in order for user authentication to work and instructions to make a Firebase project is directly below. Upon retrieving the project's configuation, the user can open the ".env.local" file in the root directory and enter each value of the configuation. The user can then run "npm start" to run the web-application on their local host.
+Node is required to run this website as well as various dependencies that are used throughout the web-application. "npm install" can be typed into the terminal to install all required dependencies. A Firebase project's configuation is also required in order for user authentication to work and instructions to create a Firebase project is directly below. Upon retrieving the project's configuation, the user can open the ".env.local" file in the root directory and enter each value of the configuation. The user can then type "npm start" into the terminal to run the web-application on their local host.
 
 # Firebase Configuation
 
-A Firebase account can be created at https://firebase.google.com/. Upon creating an account, the user can create a project with their desired name. The user then must create a web application under that project. Once the project is setup, the user can go to the "Authentication tab" under the "Build" and click on the "Sign-in method" tab. This will display various providers to sign-in with and this system solely uses the Email/Password so make sure it is enabled and picture is showed below. 
+A Firebase account can be created at https://firebase.google.com/. Upon creating an account, the user can create a project with their desired name. The user then must create a web application under that project. Once the project is setup, the user can go to the "Authentication tab" under the "Build" and click on the "Sign-in method" tab. This will display various providers to sign-in with but this system solely uses the Email/Password so make sure it is enabled and a guidance picture is provided below. 
 
 ![image](https://user-images.githubusercontent.com/82501158/122659002-162c1800-d141-11eb-9999-89c973346b5b.png)
 
