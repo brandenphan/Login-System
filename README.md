@@ -6,11 +6,26 @@ This is a login system written in JavaScript using the React framework. The syst
 
 Signup with email and password
 
+![image](https://user-images.githubusercontent.com/82501158/122659461-783b4c00-d146-11eb-90aa-1b820c227841.png)
+
 Login with email and password
+
+![image](https://user-images.githubusercontent.com/82501158/122659470-86896800-d146-11eb-8221-b4e1c7941b53.png)
 
 Logout once logged in
 
+![image](https://user-images.githubusercontent.com/82501158/122659478-95701a80-d146-11eb-8b58-42712ad771ec.png)
+
 Resetting a forgotten password
+
+![image](https://user-images.githubusercontent.com/82501158/122659483-9b65fb80-d146-11eb-97cc-e91c5bc8a89d.png)
+
+Error messages for any errors performing the above features.
+
+![image](https://user-images.githubusercontent.com/82501158/122659468-81c4b400-d146-11eb-8e90-bf43fd088c28.png)
+
+![image](https://user-images.githubusercontent.com/82501158/122659455-6d80b700-d146-11eb-8b7e-fed2503ed168.png)
+
 
 # Requirements
 
@@ -18,11 +33,11 @@ Node is required to run this website as well as various dependencies that are us
 
 # Firebase Configuation
 
-A Firebase account can be created at https://firebase.google.com/. Upon creating an account, the user can create a project with their desired name. Once an account is created, the user can go to the "Authentication tab" under the "Build" and click on the "Sign-in method" tab. This will show various providers to sign in with, this system solely uses the Email/Password so make sure it is enabled and picture is showed below. 
+A Firebase account can be created at https://firebase.google.com/. Upon creating an account, the user can create a project with their desired name. The user then must a web application under that project. Once the project is setup, the user can go to the "Authentication tab" under the "Build" and click on the "Sign-in method" tab. This will show various providers to sign in with, this system solely uses the Email/Password so make sure it is enabled and picture is showed below. 
 
 ![image](https://user-images.githubusercontent.com/82501158/122659002-162c1800-d141-11eb-9999-89c973346b5b.png)
 
-The user can then click on the gear next to "Project Overview" and click on the "Project Settings". Scrolling down there should be a header "SDK setup and configuation" that contains multiple keys and these are the ones that must be placed into the ".env.local" file. 
+Upon creating the web-application, Firebase should prompt the user to add the Firebase SDK and will provide keys directly below. Incase the user misses that step, they can click on the gear next to "Project Overview" and click on the "Project Settings". Scrolling down there should be a header "SDK setup and configuation" that contains multiple keys and these are the ones that must be placed into the ".env.local" file. 
 
 ![image](https://user-images.githubusercontent.com/82501158/122659030-60ad9480-d141-11eb-97b1-52cdfab478c0.png)
 
