@@ -43,9 +43,9 @@ const Signup = () => {
 	return (
 		<>
 			<BackgroundContainer>
-				<Grid container spacing={2} style={{ width: "100%" }}>
+				<Grid container spacing={0} style={{ width: "100%" }}>
 					<Grid item xs={12}>
-						<Grid container justify="center" spacing={2}>
+						<Grid container justify="center" spacing={0}>
 							<FormContainer>
 								<br />
 								<br />
