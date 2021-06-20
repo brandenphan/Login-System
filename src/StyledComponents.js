@@ -22,6 +22,7 @@ export const FormContainer = styled.div`
 	margin-top: 40px;
 	border-radius: 10px;
 	max-width: 400px;
+	min-width: 400px;
 `;
 
 export const CenteredDiv = styled.div`
