@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+# General Information
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a login system written in JavaScript using the React framework. The system utilizes Google's Firebase to handle user authentication using various functions available from the Firebase instance created. The Material-UI library is used for majority of the styling throughout the web-application. Errors that may occur throughout the process of creating accounts, logging in, logging out, and resetting passwords are also appropriately communicated to the user. All source code is extensively documented to help others understand how to re-create a login system using React and Firebase.
 
-## Available Scripts
+# Requirements
 
-In the project directory, you can run:
+Node is required to run this website as well as various dependencies that are used throughout the web-application. "npm install" can be typed into the terminal to install all required dependencies. A Firebase project's configuation is also required in order for user authentication to work and instructions to make a Firebase project is directly below. Upon retrieving the project's configuation, the user can open the ".env.local" file in the root directory and enter each value of the configuation. The user can then run "npm start" to run the web-application on their local host.
 
-### `npm start`
+# Firebase Configuation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+A Firebase account can be created at https://firebase.google.com/. Upon creating an account, the user can create a project with their desired name. Once an account is created, the user can go to the "Authentication tab" under the "Build" and click on the "Sign-in method" tab. This will show various providers to sign in with, this system solely uses the Email/Password so make sure it is enabled and picture is showed below. 
+![image](https://user-images.githubusercontent.com/82501158/122659002-162c1800-d141-11eb-9999-89c973346b5b.png)
+The user can then click on the gear next to "Project Overview" and click on the "Project Settings". Scrolling down there should be a header "SDK setup and configuation" that contains multiple keys and these are the ones that must be placed into the ".env.local" file. 
+![image](https://user-images.githubusercontent.com/82501158/122659030-60ad9480-d141-11eb-97b1-52cdfab478c0.png)
+Keep in mind that this project showing in the image above will be deleted so these keys will not be valid for use.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Note
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If the user is intending on creating a production login system, the default localhost authorized domain should be deleted off the project to stop any access to the project's server through localhost. This can be done right under the "Sign in method" shown above under the "Authorized Domains".
+![image](https://user-images.githubusercontent.com/82501158/122659114-3dcfb000-d142-11eb-8822-a0baedd47e1f.png)
