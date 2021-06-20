@@ -31,7 +31,7 @@ Node is required to run this website as well as various dependencies that are us
 
 # Firebase Configuation
 
-A Firebase account can be created at https://firebase.google.com/. Upon creating an account, the user can create a project with their desired name. The user then must a web application under that project. Once the project is setup, the user can go to the "Authentication tab" under the "Build" and click on the "Sign-in method" tab. This will show various providers to sign in with, this system solely uses the Email/Password so make sure it is enabled and picture is showed below. 
+A Firebase account can be created at https://firebase.google.com/. Upon creating an account, the user can create a project with their desired name. The user then must create a web application under that project. Once the project is setup, the user can go to the "Authentication tab" under the "Build" and click on the "Sign-in method" tab. This will display various providers to sign-in with and this system solely uses the Email/Password so make sure it is enabled and picture is showed below. 
 
 ![image](https://user-images.githubusercontent.com/82501158/122659002-162c1800-d141-11eb-9999-89c973346b5b.png)
 
