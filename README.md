@@ -21,4 +21,5 @@ Keep in mind that this project showing in the image above will be deleted so the
 # Note
 
 If the user is intending on creating a production login system, the default localhost authorized domain should be deleted off the project to stop any access to the project's server through localhost. This can be done right under the "Sign in method" shown above under the "Authorized Domains".
+
 ![image](https://user-images.githubusercontent.com/82501158/122659114-3dcfb000-d142-11eb-8822-a0baedd47e1f.png)
