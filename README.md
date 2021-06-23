@@ -8,7 +8,7 @@ Signup with email and password
 
 ![image](https://user-images.githubusercontent.com/82501158/122659461-783b4c00-d146-11eb-90aa-1b820c227841.png)
 
-Login with email, password and remember me checkbox
+Login with email, password and includes a remember me checkbox
 
 ![image](https://user-images.githubusercontent.com/82501158/123022311-9ce02f80-d3a3-11eb-877c-e8f0875815cf.png)
 
