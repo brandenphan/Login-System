@@ -10,7 +10,7 @@ Signup with email and password
 
 Login with email, password and remember me checkbox
 
-![image](https://user-images.githubusercontent.com/82501158/122659470-86896800-d146-11eb-8221-b4e1c7941b53.png)
+![image](https://user-images.githubusercontent.com/82501158/123022311-9ce02f80-d3a3-11eb-877c-e8f0875815cf.png)
 
 Logout once logged in
 
