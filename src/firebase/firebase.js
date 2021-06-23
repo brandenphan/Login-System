@@ -14,3 +14,6 @@ const app = firebase.initializeApp({
 // Exports the auth function found in the firebase object stored in app when firebase is initialized above
 export const auth = app.auth();
 export default app;
+
+// console.log(firebase.auth.Auth.Persistence.SESSION);
+// firebase.auth().setPersistence(firebase.auth.Auth.Persistence.SESSION);

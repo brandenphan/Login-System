@@ -1,7 +1,21 @@
 import { CenteredDiv } from "../StyledComponents";
-import { TextField, Button, Link } from "@material-ui/core";
+import {
+	TextField,
+	Button,
+	Link,
+	Checkbox,
+	Typography,
+	FormControlLabel,
+} from "@material-ui/core";
 
-const LoginForm = ({ loading, handleSubmit, emailRef, passwordRef }) => (
+const LoginForm = ({
+	loading,
+	handleSubmit,
+	emailRef,
+	passwordRef,
+	check,
+	handleCheckboxChange,
+}) => (
 	<form onSubmit={handleSubmit}>
 		<TextField
 			variant="outlined"
@@ -24,7 +38,21 @@ const LoginForm = ({ loading, handleSubmit, emailRef, passwordRef }) => (
 			inputRef={passwordRef}
 		/>
 		<br />
+
+		<FormControlLabel
+			value="start"
+			control={
+				<Checkbox
+					checked={check}
+					onChange={handleCheckboxChange}
+					color="primary"
+				/>
+			}
+			label={<Typography style={{ fontSize: "14px" }}>Remember Me</Typography>}
+			labelPlacement="end"
+		/>
 		<br />
+
 		<CenteredDiv>
 			<Button
 				disabled={loading}
@@ -40,6 +68,7 @@ const LoginForm = ({ loading, handleSubmit, emailRef, passwordRef }) => (
 				Log in
 			</Button>
 		</CenteredDiv>
+
 		<br />
 		<CenteredDiv>
 			<Link href="/Forgot-Password" variant="body1">
