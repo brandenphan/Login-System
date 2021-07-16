@@ -1,6 +1,6 @@
 # General Information
 
-This is a login system written in JavaScript using the React framework. The system utilizes Google's Firebase to handle user authentication using various functions available from the Firebase instance created. The Material-UI library is used for majority of the styling throughout the web-application. Errors that may occur throughout the process of creating accounts, logging in, logging out, and resetting passwords are also appropriately communicated to the user. All source code is extensively documented to help others understand how to re-create a login system using React and Firebase. This web-application is currently hosted under the domain: https://login-system-example.netlify.app.
+This is a login system written in JavaScript using the React framework. The system utilizes Google's Firebase to handle user authentication using various functions available from the Firebase instance created. The Material-UI library is used for majority of the styling throughout the web-application. Errors that may occur throughout the process of creating accounts, logging in, logging out, and resetting passwords are also appropriately communicated to the user. All source code is extensively documented to help others understand how to re-create a login system using React and Firebase. 
 
 # Features
 
